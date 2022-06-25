@@ -1,0 +1,25 @@
+1. make it usable for all plays
+    - take command line input of text file name
+    - take user input for character names
+    - OR program finds all the characters names
+
+2. additional functionality
+    - count how many lines each character has, not just how many times they start talking
+        - could count lines for that character until the name of a new character occurs
+        - 2D array for character names and line count?
+    - output shows how many lines each character has in high to low order
+        - doesn't need to be a complicated algorithm, find the biggest, put it first, etc.
+    - figure out who is talking to who 
+        - which characters share scenes
+
+3. potentially lofty goals        
+    - take input of how many actors there will be
+        - divide up characters evenly between actors based on line counts
+    - make a new script with actor names assigned to characters
+
+
+ASSUMPTIONS:
+    - file input is a text file
+    - characters are denoted by entirely capitalized names 
+        ex: LORD GORING vs. Lord Goring 
+    - at least 2 actors
