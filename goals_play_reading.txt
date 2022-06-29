@@ -1,6 +1,7 @@
 1. make it usable for all plays
     - take command line input of text file name
     - take user input for character names
+    - convert user input to all caps to match script
     - OR program finds all the characters names
 
 2. additional functionality
