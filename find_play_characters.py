@@ -40,12 +40,14 @@ for i in range(num_char):
     inputname.assign_name()
     n += 1
 
+# declare variable to track index in characters
 k = 0
+# iterate through all the characters in the play, putting their lines in the characters list with their name
 for i in range(num_char):
     find_character(characters[k].name, characters[k].lines, k)
     k += 1
 
-# sort characters list by line number    
+# sort characters list by line number
 characters.sort(reverse=True, key=sort_lines)
 
 # print out character list in order
@@ -55,4 +57,3 @@ for i in range(num_char):
     m += 1
 
 
-# in term " python3.9 [title]' | sort -rn

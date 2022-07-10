@@ -32,3 +32,6 @@ find_character("SERVANT")
 find_character("PLAYER")
 find_character("PAGE")
 find_character("MESSENGER")
+
+## in term " python3.9 [title]' | sort -rn
+
